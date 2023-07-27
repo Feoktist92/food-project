@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/food-project/static/css/main.535acb71.css",
+    "main.css": "/food-project/static/css/main.0b28bdd2.css",
     "main.js": "/food-project/static/js/main.0d45ce9a.js",
     "index.html": "/food-project/index.html",
-    "main.535acb71.css.map": "/food-project/static/css/main.535acb71.css.map",
+    "main.0b28bdd2.css.map": "/food-project/static/css/main.0b28bdd2.css.map",
     "main.0d45ce9a.js.map": "/food-project/static/js/main.0d45ce9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.535acb71.css",
+    "static/css/main.0b28bdd2.css",
     "static/js/main.0d45ce9a.js"
   ]
 }
