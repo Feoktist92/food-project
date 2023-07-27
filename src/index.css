@@ -58,6 +58,10 @@ iframe{
 .page-footer {
   padding: 0;
 }
+.about {
+  display: inline-block;
+  margin-right: 20px;
+}
 .contacts {
   display: inline-block;
   margin-right: 20px;
@@ -68,4 +72,7 @@ iframe{
   float: left !important;
   margin-right: 0;
   }
+}
+.btn:hover {
+  opacity: 0.5;
 }

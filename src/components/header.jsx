@@ -8,7 +8,7 @@ function Header() {
                     React Shop
                 </Link>
 
-                <Link to='/about' className='brown-text right '>
+                <Link to='/about' className='brown-text right about '>
                     About
                 </Link>
 
