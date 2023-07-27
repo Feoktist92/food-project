@@ -5,7 +5,7 @@ function Header() {
         <nav className='orange lighten-4'>
             <div className='nav-wrapper'>
                 <Link to='/' className='brand-logo brown-text center'>
-                    React Shop
+                    React Food
                 </Link>
                 <Link to='/about' className='brown-text right about '>
                     About
