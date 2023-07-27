@@ -1,20 +1,20 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
         <nav className='orange lighten-4'>
             <div className='nav-wrapper'>
-                <NavLink to='/' className='brand-logo brown-text center'>
+                <Link to='/' className='brand-logo brown-text center'>
                     React Shop
-                </NavLink>
+                </Link>
 
-                <NavLink to='/about' className='brown-text right '>
+                <Link to='/about' className='brown-text right '>
                     About
-                </NavLink>
+                </Link>
 
-                <NavLink to='/contacts' className='brown-text right contacts'>
+                <Link to='/contacts' className='brown-text right contacts'>
                     Contacts
-                </NavLink>
+                </Link>
             </div>
         </nav>
     );
