@@ -5,7 +5,7 @@ function Footer() {
                 <div className='container brown-text'>
                     © {new Date().getFullYear()} Copyright Text
                     <a
-                        className='brown-text right'
+                        className='brown-text right repo'
                         href='https://github.com/Feoktist92/food-project'
                         target='__blank'
                     >
