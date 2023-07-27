@@ -76,6 +76,9 @@ iframe{
   .about {
   float: left !important;
   margin-right: 0;
+  .contacts{
+    margin-right: 0;
+  }
   }
 }
 .btn:hover {

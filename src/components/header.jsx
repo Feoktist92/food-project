@@ -7,11 +7,9 @@ function Header() {
                 <Link to='/' className='brand-logo brown-text center'>
                     React Shop
                 </Link>
-
                 <Link to='/about' className='brown-text right about '>
                     About
                 </Link>
-
                 <Link to='/contacts' className='brown-text right contacts'>
                     Contacts
                 </Link>
