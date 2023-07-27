@@ -62,9 +62,15 @@ iframe{
   display: inline-block;
   margin-right: 20px;
 }
+.about:hover{
+  opacity: 0.7;
+}
 .contacts {
   display: inline-block;
   margin-right: 20px;
+}
+.contacts:hover {
+  opacity: 0.7;
 }
 
 @media (max-width: 767px) {
@@ -74,5 +80,5 @@ iframe{
   }
 }
 .btn:hover {
-  opacity: 0.5;
+  opacity: 0.7;
 }
