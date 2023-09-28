@@ -4,23 +4,24 @@ function About() {
 
     return (
         <>
-            <h2 style={{ textAlign: 'center' }}>
-                React food project made with API{' '}
-                <a
-                    href='https://www.themealdb.com'
-                    className='brown-text'
-                    style={{ textDecoration: 'underline' }}
-                    target='__blank'
+            <div className='about__wrapper'>
+                <h3 className='about__title'>
+                    React food project made with API{' '}
+                    <a
+                        href='https://www.themealdb.com'
+                        className='brown-text about__link'
+                        target='__blank'
+                    >
+                        TheMealDB
+                    </a>
+                </h3>
+                <button
+                    className='btn deep-orange lighten-1 black-text'
+                    onClick={goBack}
                 >
-                    TheMealDB
-                </a>
-            </h2>
-            <button
-                className='btn deep-orange lighten-1 black-text'
-                onClick={goBack}
-            >
-                Back
-            </button>
+                    Back
+                </button>
+            </div>
         </>
     );
 }

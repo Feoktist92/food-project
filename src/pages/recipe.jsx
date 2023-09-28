@@ -18,22 +18,34 @@ function Recipe() {
                 <Preloader />
             ) : (
                 <div className='recipe'>
-                    <img src={recipe.strMealThumb} alt={recipe.strMeal} />
-                    <h1 style={{ textAlign: 'center' }}>{recipe.strMeal}</h1>
+                    <img
+                        className='recipe__img'
+                        src={recipe.strMealThumb}
+                        alt={recipe.strMeal}
+                    />
+
+                    <h1 className='recipe__header'>{recipe.strMeal}</h1>
                     <h6>
-                        <b>Category</b>: {recipe.strCategory}
+                        <b>Category</b>:{' '}
+                        <span className='recipe__category'>
+                            {recipe.strCategory}
+                        </span>
                     </h6>
                     {recipe.strArea ? (
                         <h6>
-                            <b>Area</b>: {recipe.strArea}
+                            <b>Area</b>:{' '}
+                            <span className='recipe__area'>
+                                {recipe.strArea}
+                            </span>
                         </h6>
                     ) : null}
                     <p>{recipe.strInstructions}</p>
+
                     <table className='centered'>
                         <thead>
                             <tr>
-                                <th>Ingredient</th>
-                                <th>Measure</th>
+                                <th className='table__head'>Ingredient</th>
+                                <th className='table__head'>Measure</th>
                             </tr>
                         </thead>
                         <tbody>

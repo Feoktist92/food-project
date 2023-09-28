@@ -16,8 +16,9 @@ function Search({ cb = Function.prototype }) {
         <div className='row'>
             <div className='input-field col s12'>
                 <input
+                    className='search'
                     type='search'
-                    placeholder='search'
+                    placeholder='Find recept here'
                     id='search-field'
                     value={value}
                     onChange={(event) => setValue(event.target.value)}

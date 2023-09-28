@@ -1,18 +1,30 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Header() {
+    const activeLink = 'brown-text right nav-list__link active';
+    const normalLink = 'brown-text right nav-list__link';
     return (
         <nav className='orange lighten-4'>
             <div className='nav-wrapper'>
-                <Link to='/' className='brand-logo brown-text center'>
+                <NavLink to='/' className='brand-logo brown-text center logo'>
                     React Food
-                </Link>
-                <Link to='/about' className='brown-text right about '>
+                </NavLink>
+                <NavLink
+                    to='/about'
+                    className={({ isActive }) =>
+                        isActive ? activeLink : normalLink
+                    }
+                >
                     About
-                </Link>
-                <Link to='/contacts' className='brown-text right contacts'>
+                </NavLink>
+                <NavLink
+                    to='/contacts'
+                    className={({ isActive }) =>
+                        isActive ? activeLink : normalLink
+                    }
+                >
                     Contacts
-                </Link>
+                </NavLink>
             </div>
         </nav>
     );
