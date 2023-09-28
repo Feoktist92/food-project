@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/food-project/static/css/main.b42f6b4d.css",
-    "main.js": "/food-project/static/js/main.2a603a7e.js",
+    "main.css": "/food-project/static/css/main.28d0fc50.css",
+    "main.js": "/food-project/static/js/main.7d1c83e5.js",
     "static/media/telegram.svg": "/food-project/static/media/telegram.40cd12a4652e3c19678b70687277e9f4.svg",
     "static/media/github.svg": "/food-project/static/media/github.a091f68bc894eaabbe5578fe26a13037.svg",
     "static/media/headhunter.svg": "/food-project/static/media/headhunter.34e2c5deff68e040e46f18a0ec16ffa3.svg",
     "index.html": "/food-project/index.html",
-    "main.b42f6b4d.css.map": "/food-project/static/css/main.b42f6b4d.css.map",
-    "main.2a603a7e.js.map": "/food-project/static/js/main.2a603a7e.js.map"
+    "main.28d0fc50.css.map": "/food-project/static/css/main.28d0fc50.css.map",
+    "main.7d1c83e5.js.map": "/food-project/static/js/main.7d1c83e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.b42f6b4d.css",
-    "static/js/main.2a603a7e.js"
+    "static/css/main.28d0fc50.css",
+    "static/js/main.7d1c83e5.js"
   ]
 }
