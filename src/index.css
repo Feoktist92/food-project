@@ -131,7 +131,9 @@ iframe {
     max-width: 345px;
 }
 .about__link {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: all 0.2s ease-in;
 }
 .about__link:hover {

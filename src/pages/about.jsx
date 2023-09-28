@@ -1,4 +1,5 @@
 import { useHistory } from 'react-router-dom';
+import foodIcon from './../icons/food.png';
 function About() {
     const { goBack } = useHistory();
 
@@ -13,6 +14,11 @@ function About() {
                         target='__blank'
                     >
                         TheMealDB
+                        <img
+                            src={foodIcon}
+                            alt='food'
+                            style={{ width: '60px', height: '60px' }}
+                        />
                     </a>
                 </h3>
                 <button
