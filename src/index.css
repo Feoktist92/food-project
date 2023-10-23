@@ -14,11 +14,12 @@ nav {
 }
 .nav-list__link {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 40px;
     transition: all 0.2s ease-in;
+    font-weight: 400;
 }
 .nav-list__link:hover {
-    transform: scale(1.15);
+    color: #ff7043 !important;
 }
 .nav-list__link.active {
     position: relative;
@@ -33,17 +34,17 @@ nav {
     top: 70%;
     background-color: #795548;
 }
+
 .brand-logo {
     transition: all 0.2s ease-in;
 }
 .brand-logo:hover {
-    opacity: 0.7;
-    transform: scale(1.1);
+    color: #ff7043 !important;
 }
 
 /* Main content */
 .content {
-    min-height: calc(100vh - 64px - 50px);
+    min-height: calc(100vh - 56px - 50px);
     padding: 10px 0;
 }
 .container.content {
@@ -86,6 +87,9 @@ nav {
 .card-content {
     flex-grow: 1;
 }
+.card:hover {
+    box-shadow: 0px 0px 35px rgba(132, 99, 51, 0.25);
+}
 
 /* Страница с рецептом */
 .recipe__header {
@@ -126,7 +130,7 @@ iframe {
     transform: translate(-50%, -50%);
 }
 .about__title {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-align: center;
     max-width: 345px;
 }
@@ -135,43 +139,57 @@ iframe {
     align-items: center;
     justify-content: center;
     transition: all 0.2s ease-in;
+    margin-bottom: 40px;
+    font-size: 26px;
 }
 .about__link:hover {
-    transform: scale(110%);
-    opacity: 0.8;
+    text-decoration: underline;
+}
+.about__link > img {
+    transition: all 0.2s ease-in;
+    margin-left: 10px;
+}
+.about__link > img:hover {
+    transform: scale(1.1);
 }
 
-/* Страница контакты */
-.contact__item {
-    min-width: 600px;
-    text-align: center;
+.contact__item a {
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 20px;
 }
-.contact__item > h4 {
-    margin: 1rem 0 1rem;
+.contact__item span {
+    font-size: 26px;
+    text-align: center;
+}
+.contact__item span:hover {
+    color: #ff7043 !important;
 }
 .contact__item:last-of-type {
     margin-bottom: 40px;
 }
 
 /* Иконки */
-.icon {
-    transition: all 0.2s ease-in;
-}
+
 .icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
 .icon__img {
-    display: inline-block;
     width: 60px;
     height: 60px;
+    transition: all 0.2s ease-in-out;
+    margin-left: auto;
 }
-.icon__img.hhIcon {
-    transform: scale(-1, 1);
-    height: 50px;
+.icon__img:hover {
+    transform: scale(1.15);
+}
+.hhIcon {
+    height: 45px;
+    width: 45px;
+    margin-right: 6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /* Футер */
@@ -182,7 +200,7 @@ iframe {
     transition: all 0.2s ease-in;
 }
 .repo:hover {
-    transform: scale(1.15);
+    color: #ff7043 !important;
 }
 
 /* Медиа-запросы */

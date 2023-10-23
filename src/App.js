@@ -20,7 +20,7 @@ function App() {
                     <Route path='/contacts' component={Contact} />
                     <Route path='/category/:name' component={Category} />
                     <Route path='/meal/:id' component={Recipe} />
-                    <Route component={NotFound} />
+                    <Route path='*' component={NotFound} />
                 </Switch>
             </main>
             <Footer />

@@ -9,13 +9,14 @@ function Contact() {
         <>
             <div className='contact__wrapper'>
                 <div className='contact__item'>
-                    <h4>Repository of this project </h4>
                     <a
-                        className='icon brown-text'
+                        className='brown-text'
                         href='https://github.com/Feoktist92/food-project'
                         target='__blank'
                         rel='noopener noreferrer'
                     >
+                        <span>Repository of this project </span>
+
                         <img
                             className='icon__img'
                             src={gitHubIcon}
@@ -24,13 +25,14 @@ function Contact() {
                     </a>
                 </div>
                 <div className='contact__item'>
-                    <h4>View another React and JS projects</h4>
                     <a
-                        className='icon brown-text'
+                        className=' brown-text'
                         href='https://github.com/Feoktist92?tab=repositories'
                         target='__blank'
                         rel='noopener noreferrer'
                     >
+                        <span>View another React projects</span>
+
                         <img
                             className='icon__img'
                             src={gitHubIcon}
@@ -39,13 +41,13 @@ function Contact() {
                     </a>
                 </div>
                 <div className='contact__item'>
-                    <h4>Telegram </h4>
                     <a
-                        className='icon brown-text'
+                        className=' brown-text'
                         href='https://t.me/feoktistov_igor92'
                         target='__blank'
                         rel='noopener noreferrer'
                     >
+                        <span>Telegram </span>
                         <img
                             className='icon__img'
                             src={tgIcon}
@@ -54,13 +56,13 @@ function Contact() {
                     </a>
                 </div>
                 <div className='contact__item'>
-                    <h4>Resume </h4>
                     <a
-                        className='icon brown-text'
+                        className=' brown-text'
                         href='https://hh.ru/resume/ded9d9ffff020d9de60039ed1f4c7542555747'
                         target='__blank'
                         rel='noopener noreferrer'
                     >
+                        <span>Resume </span>
                         <img
                             className='icon__img hhIcon'
                             src={hhIcon}
